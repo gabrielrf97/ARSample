@@ -12,6 +12,47 @@
 		BF88C5341F55D5C600E01CF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF88C5321F55D5C600E01CF0 /* Main.storyboard */; };
 		BF88C5361F55D5C600E01CF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF88C5351F55D5C600E01CF0 /* Assets.xcassets */; };
 		BF88C5391F55D5C600E01CF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF88C5371F55D5C600E01CF0 /* LaunchScreen.storyboard */; };
+		BF88C5741F565E3000E01CF0 /* plane_grid.png in Resources */ = {isa = PBXBuildFile; fileRef = BF88C5401F565E2E00E01CF0 /* plane_grid.png */; };
+		BF88C5751F565E3000E01CF0 /* environment.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF88C5421F565E2E00E01CF0 /* environment.jpg */; };
+		BF88C5761F565E3000E01CF0 /* environment_blur.exr in Resources */ = {isa = PBXBuildFile; fileRef = BF88C5431F565E2E00E01CF0 /* environment_blur.exr */; };
+		BF88C5771F565E3000E01CF0 /* lamp.scn in Resources */ = {isa = PBXBuildFile; fileRef = BF88C5451F565E2F00E01CF0 /* lamp.scn */; };
+		BF88C5781F565E3000E01CF0 /* lamp_DIFFUSE.png in Resources */ = {isa = PBXBuildFile; fileRef = BF88C5471F565E2F00E01CF0 /* lamp_DIFFUSE.png */; };
+		BF88C5791F565E3000E01CF0 /* lamp_METALLIC.png in Resources */ = {isa = PBXBuildFile; fileRef = BF88C5481F565E2F00E01CF0 /* lamp_METALLIC.png */; };
+		BF88C57A1F565E3000E01CF0 /* lamp_NORMAL.png in Resources */ = {isa = PBXBuildFile; fileRef = BF88C5491F565E2F00E01CF0 /* lamp_NORMAL.png */; };
+		BF88C57B1F565E3000E01CF0 /* lamp_ROUGHNESS.png in Resources */ = {isa = PBXBuildFile; fileRef = BF88C54A1F565E2F00E01CF0 /* lamp_ROUGHNESS.png */; };
+		BF88C57C1F565E3000E01CF0 /* lamp_SHADOW.png in Resources */ = {isa = PBXBuildFile; fileRef = BF88C54B1F565E2F00E01CF0 /* lamp_SHADOW.png */; };
+		BF88C57D1F565E3000E01CF0 /* candle.scn in Resources */ = {isa = PBXBuildFile; fileRef = BF88C54D1F565E2F00E01CF0 /* candle.scn */; };
+		BF88C57E1F565E3000E01CF0 /* candle_AO.png in Resources */ = {isa = PBXBuildFile; fileRef = BF88C54F1F565E2F00E01CF0 /* candle_AO.png */; };
+		BF88C57F1F565E3000E01CF0 /* candle_DIFFUSE.png in Resources */ = {isa = PBXBuildFile; fileRef = BF88C5501F565E2F00E01CF0 /* candle_DIFFUSE.png */; };
+		BF88C5801F565E3000E01CF0 /* candle_METALLIC.png in Resources */ = {isa = PBXBuildFile; fileRef = BF88C5511F565E2F00E01CF0 /* candle_METALLIC.png */; };
+		BF88C5811F565E3000E01CF0 /* candle_NORMAL.png in Resources */ = {isa = PBXBuildFile; fileRef = BF88C5521F565E2F00E01CF0 /* candle_NORMAL.png */; };
+		BF88C5821F565E3000E01CF0 /* candle_ROUGHNESS.png in Resources */ = {isa = PBXBuildFile; fileRef = BF88C5531F565E2F00E01CF0 /* candle_ROUGHNESS.png */; };
+		BF88C5831F565E3000E01CF0 /* candle_SHADOW.png in Resources */ = {isa = PBXBuildFile; fileRef = BF88C5541F565E2F00E01CF0 /* candle_SHADOW.png */; };
+		BF88C5841F565E3000E01CF0 /* flame_PARTICLE.png in Resources */ = {isa = PBXBuildFile; fileRef = BF88C5551F565E2F00E01CF0 /* flame_PARTICLE.png */; };
+		BF88C5851F565E3000E01CF0 /* cup.scn in Resources */ = {isa = PBXBuildFile; fileRef = BF88C5571F565E2F00E01CF0 /* cup.scn */; };
+		BF88C5861F565E3000E01CF0 /* cup_AO.png in Resources */ = {isa = PBXBuildFile; fileRef = BF88C5591F565E2F00E01CF0 /* cup_AO.png */; };
+		BF88C5871F565E3000E01CF0 /* cup_DIFFUSE.png in Resources */ = {isa = PBXBuildFile; fileRef = BF88C55A1F565E2F00E01CF0 /* cup_DIFFUSE.png */; };
+		BF88C5881F565E3000E01CF0 /* cup_METALLIC.png in Resources */ = {isa = PBXBuildFile; fileRef = BF88C55B1F565E2F00E01CF0 /* cup_METALLIC.png */; };
+		BF88C5891F565E3000E01CF0 /* cup_NORMAL.png in Resources */ = {isa = PBXBuildFile; fileRef = BF88C55C1F565E2F00E01CF0 /* cup_NORMAL.png */; };
+		BF88C58A1F565E3000E01CF0 /* cup_ROUGHNESS.png in Resources */ = {isa = PBXBuildFile; fileRef = BF88C55D1F565E2F00E01CF0 /* cup_ROUGHNESS.png */; };
+		BF88C58B1F565E3000E01CF0 /* cup_SHADOW.png in Resources */ = {isa = PBXBuildFile; fileRef = BF88C55E1F565E2F00E01CF0 /* cup_SHADOW.png */; };
+		BF88C58C1F565E3000E01CF0 /* cup_steam_SPRITE.png in Resources */ = {isa = PBXBuildFile; fileRef = BF88C55F1F565E2F00E01CF0 /* cup_steam_SPRITE.png */; };
+		BF88C58D1F565E3000E01CF0 /* crosshair_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = BF88C5601F565E2F00E01CF0 /* crosshair_blue.png */; };
+		BF88C58E1F565E3000E01CF0 /* chair.scn in Resources */ = {isa = PBXBuildFile; fileRef = BF88C5621F565E2F00E01CF0 /* chair.scn */; };
+		BF88C58F1F565E3000E01CF0 /* chair_DIFFUSE.png in Resources */ = {isa = PBXBuildFile; fileRef = BF88C5641F565E2F00E01CF0 /* chair_DIFFUSE.png */; };
+		BF88C5901F565E3000E01CF0 /* chair_METALLIC.png in Resources */ = {isa = PBXBuildFile; fileRef = BF88C5651F565E2F00E01CF0 /* chair_METALLIC.png */; };
+		BF88C5911F565E3000E01CF0 /* chair_NORMAL.png in Resources */ = {isa = PBXBuildFile; fileRef = BF88C5661F565E2F00E01CF0 /* chair_NORMAL.png */; };
+		BF88C5921F565E3000E01CF0 /* chair_ROUGHNESS.png in Resources */ = {isa = PBXBuildFile; fileRef = BF88C5671F565E2F00E01CF0 /* chair_ROUGHNESS.png */; };
+		BF88C5931F565E3000E01CF0 /* chair_SHADOW.png in Resources */ = {isa = PBXBuildFile; fileRef = BF88C5681F565E2F00E01CF0 /* chair_SHADOW.png */; };
+		BF88C5941F565E3000E01CF0 /* crosshair_yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = BF88C5691F565E2F00E01CF0 /* crosshair_yellow.png */; };
+		BF88C5951F565E3000E01CF0 /* vase_AO.png in Resources */ = {isa = PBXBuildFile; fileRef = BF88C56C1F565E3000E01CF0 /* vase_AO.png */; };
+		BF88C5961F565E3000E01CF0 /* vase_DIFFUSE.png in Resources */ = {isa = PBXBuildFile; fileRef = BF88C56D1F565E3000E01CF0 /* vase_DIFFUSE.png */; };
+		BF88C5971F565E3000E01CF0 /* vase_METALLIC.png in Resources */ = {isa = PBXBuildFile; fileRef = BF88C56E1F565E3000E01CF0 /* vase_METALLIC.png */; };
+		BF88C5981F565E3000E01CF0 /* vase_NORMAL.png in Resources */ = {isa = PBXBuildFile; fileRef = BF88C56F1F565E3000E01CF0 /* vase_NORMAL.png */; };
+		BF88C5991F565E3000E01CF0 /* vase_ROUGHNESS.png in Resources */ = {isa = PBXBuildFile; fileRef = BF88C5701F565E3000E01CF0 /* vase_ROUGHNESS.png */; };
+		BF88C59A1F565E3000E01CF0 /* vase_SHADOW.png in Resources */ = {isa = PBXBuildFile; fileRef = BF88C5711F565E3000E01CF0 /* vase_SHADOW.png */; };
+		BF88C59B1F565E3000E01CF0 /* water_DIFFUSE.png in Resources */ = {isa = PBXBuildFile; fileRef = BF88C5721F565E3000E01CF0 /* water_DIFFUSE.png */; };
+		BF88C59C1F565E3000E01CF0 /* vase.scn in Resources */ = {isa = PBXBuildFile; fileRef = BF88C5731F565E3000E01CF0 /* vase.scn */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +63,47 @@
 		BF88C5351F55D5C600E01CF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF88C5381F55D5C600E01CF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF88C53A1F55D5C600E01CF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF88C5401F565E2E00E01CF0 /* plane_grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plane_grid.png; path = "../../../../../Materiais de Estudo/PlacingObjects/ARKitExample/Models.scnassets/plane_grid.png"; sourceTree = "<group>"; };
+		BF88C5421F565E2E00E01CF0 /* environment.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = environment.jpg; sourceTree = "<group>"; };
+		BF88C5431F565E2E00E01CF0 /* environment_blur.exr */ = {isa = PBXFileReference; lastKnownFileType = file; path = environment_blur.exr; sourceTree = "<group>"; };
+		BF88C5451F565E2F00E01CF0 /* lamp.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = lamp.scn; sourceTree = "<group>"; };
+		BF88C5471F565E2F00E01CF0 /* lamp_DIFFUSE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_DIFFUSE.png; sourceTree = "<group>"; };
+		BF88C5481F565E2F00E01CF0 /* lamp_METALLIC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_METALLIC.png; sourceTree = "<group>"; };
+		BF88C5491F565E2F00E01CF0 /* lamp_NORMAL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_NORMAL.png; sourceTree = "<group>"; };
+		BF88C54A1F565E2F00E01CF0 /* lamp_ROUGHNESS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_ROUGHNESS.png; sourceTree = "<group>"; };
+		BF88C54B1F565E2F00E01CF0 /* lamp_SHADOW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_SHADOW.png; sourceTree = "<group>"; };
+		BF88C54D1F565E2F00E01CF0 /* candle.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = candle.scn; sourceTree = "<group>"; };
+		BF88C54F1F565E2F00E01CF0 /* candle_AO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = candle_AO.png; sourceTree = "<group>"; };
+		BF88C5501F565E2F00E01CF0 /* candle_DIFFUSE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = candle_DIFFUSE.png; sourceTree = "<group>"; };
+		BF88C5511F565E2F00E01CF0 /* candle_METALLIC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = candle_METALLIC.png; sourceTree = "<group>"; };
+		BF88C5521F565E2F00E01CF0 /* candle_NORMAL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = candle_NORMAL.png; sourceTree = "<group>"; };
+		BF88C5531F565E2F00E01CF0 /* candle_ROUGHNESS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = candle_ROUGHNESS.png; sourceTree = "<group>"; };
+		BF88C5541F565E2F00E01CF0 /* candle_SHADOW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = candle_SHADOW.png; sourceTree = "<group>"; };
+		BF88C5551F565E2F00E01CF0 /* flame_PARTICLE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flame_PARTICLE.png; sourceTree = "<group>"; };
+		BF88C5571F565E2F00E01CF0 /* cup.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = cup.scn; sourceTree = "<group>"; };
+		BF88C5591F565E2F00E01CF0 /* cup_AO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cup_AO.png; sourceTree = "<group>"; };
+		BF88C55A1F565E2F00E01CF0 /* cup_DIFFUSE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cup_DIFFUSE.png; sourceTree = "<group>"; };
+		BF88C55B1F565E2F00E01CF0 /* cup_METALLIC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cup_METALLIC.png; sourceTree = "<group>"; };
+		BF88C55C1F565E2F00E01CF0 /* cup_NORMAL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cup_NORMAL.png; sourceTree = "<group>"; };
+		BF88C55D1F565E2F00E01CF0 /* cup_ROUGHNESS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cup_ROUGHNESS.png; sourceTree = "<group>"; };
+		BF88C55E1F565E2F00E01CF0 /* cup_SHADOW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cup_SHADOW.png; sourceTree = "<group>"; };
+		BF88C55F1F565E2F00E01CF0 /* cup_steam_SPRITE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cup_steam_SPRITE.png; sourceTree = "<group>"; };
+		BF88C5601F565E2F00E01CF0 /* crosshair_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = crosshair_blue.png; path = "../../../../../Materiais de Estudo/PlacingObjects/ARKitExample/Models.scnassets/crosshair_blue.png"; sourceTree = "<group>"; };
+		BF88C5621F565E2F00E01CF0 /* chair.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = chair.scn; sourceTree = "<group>"; };
+		BF88C5641F565E2F00E01CF0 /* chair_DIFFUSE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chair_DIFFUSE.png; sourceTree = "<group>"; };
+		BF88C5651F565E2F00E01CF0 /* chair_METALLIC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chair_METALLIC.png; sourceTree = "<group>"; };
+		BF88C5661F565E2F00E01CF0 /* chair_NORMAL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chair_NORMAL.png; sourceTree = "<group>"; };
+		BF88C5671F565E2F00E01CF0 /* chair_ROUGHNESS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chair_ROUGHNESS.png; sourceTree = "<group>"; };
+		BF88C5681F565E2F00E01CF0 /* chair_SHADOW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chair_SHADOW.png; sourceTree = "<group>"; };
+		BF88C5691F565E2F00E01CF0 /* crosshair_yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = crosshair_yellow.png; path = "../../../../../Materiais de Estudo/PlacingObjects/ARKitExample/Models.scnassets/crosshair_yellow.png"; sourceTree = "<group>"; };
+		BF88C56C1F565E3000E01CF0 /* vase_AO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vase_AO.png; sourceTree = "<group>"; };
+		BF88C56D1F565E3000E01CF0 /* vase_DIFFUSE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vase_DIFFUSE.png; sourceTree = "<group>"; };
+		BF88C56E1F565E3000E01CF0 /* vase_METALLIC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vase_METALLIC.png; sourceTree = "<group>"; };
+		BF88C56F1F565E3000E01CF0 /* vase_NORMAL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vase_NORMAL.png; sourceTree = "<group>"; };
+		BF88C5701F565E3000E01CF0 /* vase_ROUGHNESS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vase_ROUGHNESS.png; sourceTree = "<group>"; };
+		BF88C5711F565E3000E01CF0 /* vase_SHADOW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vase_SHADOW.png; sourceTree = "<group>"; };
+		BF88C5721F565E3000E01CF0 /* water_DIFFUSE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = water_DIFFUSE.png; sourceTree = "<group>"; };
+		BF88C5731F565E3000E01CF0 /* vase.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = vase.scn; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +139,146 @@
 				BF88C52E1F55D5C600E01CF0 /* AppDelegate.swift */,
 				BF88C5301F55D5C600E01CF0 /* ViewController.swift */,
 				BF88C5321F55D5C600E01CF0 /* Main.storyboard */,
+				BF88C5411F565E2E00E01CF0 /* sharedImages */,
+				BF88C56A1F565E3000E01CF0 /* vase */,
 				BF88C5351F55D5C600E01CF0 /* Assets.xcassets */,
+				BF88C54C1F565E2F00E01CF0 /* candle */,
+				BF88C5611F565E2F00E01CF0 /* chair */,
+				BF88C5601F565E2F00E01CF0 /* crosshair_blue.png */,
+				BF88C5691F565E2F00E01CF0 /* crosshair_yellow.png */,
+				BF88C5561F565E2F00E01CF0 /* cup */,
+				BF88C5441F565E2F00E01CF0 /* lamp */,
+				BF88C5401F565E2E00E01CF0 /* plane_grid.png */,
 				BF88C5371F55D5C600E01CF0 /* LaunchScreen.storyboard */,
 				BF88C53A1F55D5C600E01CF0 /* Info.plist */,
 			);
 			path = FirstARSample;
+			sourceTree = "<group>";
+		};
+		BF88C5411F565E2E00E01CF0 /* sharedImages */ = {
+			isa = PBXGroup;
+			children = (
+				BF88C5421F565E2E00E01CF0 /* environment.jpg */,
+				BF88C5431F565E2E00E01CF0 /* environment_blur.exr */,
+			);
+			name = sharedImages;
+			path = "../../../../../Materiais de Estudo/PlacingObjects/ARKitExample/Models.scnassets/sharedImages";
+			sourceTree = "<group>";
+		};
+		BF88C5441F565E2F00E01CF0 /* lamp */ = {
+			isa = PBXGroup;
+			children = (
+				BF88C5451F565E2F00E01CF0 /* lamp.scn */,
+				BF88C5461F565E2F00E01CF0 /* textures */,
+			);
+			name = lamp;
+			path = "../../../../../Materiais de Estudo/PlacingObjects/ARKitExample/Models.scnassets/lamp";
+			sourceTree = "<group>";
+		};
+		BF88C5461F565E2F00E01CF0 /* textures */ = {
+			isa = PBXGroup;
+			children = (
+				BF88C5471F565E2F00E01CF0 /* lamp_DIFFUSE.png */,
+				BF88C5481F565E2F00E01CF0 /* lamp_METALLIC.png */,
+				BF88C5491F565E2F00E01CF0 /* lamp_NORMAL.png */,
+				BF88C54A1F565E2F00E01CF0 /* lamp_ROUGHNESS.png */,
+				BF88C54B1F565E2F00E01CF0 /* lamp_SHADOW.png */,
+			);
+			path = textures;
+			sourceTree = "<group>";
+		};
+		BF88C54C1F565E2F00E01CF0 /* candle */ = {
+			isa = PBXGroup;
+			children = (
+				BF88C54D1F565E2F00E01CF0 /* candle.scn */,
+				BF88C54E1F565E2F00E01CF0 /* textures */,
+			);
+			name = candle;
+			path = "../../../../../Materiais de Estudo/PlacingObjects/ARKitExample/Models.scnassets/candle";
+			sourceTree = "<group>";
+		};
+		BF88C54E1F565E2F00E01CF0 /* textures */ = {
+			isa = PBXGroup;
+			children = (
+				BF88C54F1F565E2F00E01CF0 /* candle_AO.png */,
+				BF88C5501F565E2F00E01CF0 /* candle_DIFFUSE.png */,
+				BF88C5511F565E2F00E01CF0 /* candle_METALLIC.png */,
+				BF88C5521F565E2F00E01CF0 /* candle_NORMAL.png */,
+				BF88C5531F565E2F00E01CF0 /* candle_ROUGHNESS.png */,
+				BF88C5541F565E2F00E01CF0 /* candle_SHADOW.png */,
+				BF88C5551F565E2F00E01CF0 /* flame_PARTICLE.png */,
+			);
+			path = textures;
+			sourceTree = "<group>";
+		};
+		BF88C5561F565E2F00E01CF0 /* cup */ = {
+			isa = PBXGroup;
+			children = (
+				BF88C5571F565E2F00E01CF0 /* cup.scn */,
+				BF88C5581F565E2F00E01CF0 /* textures */,
+			);
+			name = cup;
+			path = "../../../../../Materiais de Estudo/PlacingObjects/ARKitExample/Models.scnassets/cup";
+			sourceTree = "<group>";
+		};
+		BF88C5581F565E2F00E01CF0 /* textures */ = {
+			isa = PBXGroup;
+			children = (
+				BF88C5591F565E2F00E01CF0 /* cup_AO.png */,
+				BF88C55A1F565E2F00E01CF0 /* cup_DIFFUSE.png */,
+				BF88C55B1F565E2F00E01CF0 /* cup_METALLIC.png */,
+				BF88C55C1F565E2F00E01CF0 /* cup_NORMAL.png */,
+				BF88C55D1F565E2F00E01CF0 /* cup_ROUGHNESS.png */,
+				BF88C55E1F565E2F00E01CF0 /* cup_SHADOW.png */,
+				BF88C55F1F565E2F00E01CF0 /* cup_steam_SPRITE.png */,
+			);
+			path = textures;
+			sourceTree = "<group>";
+		};
+		BF88C5611F565E2F00E01CF0 /* chair */ = {
+			isa = PBXGroup;
+			children = (
+				BF88C5621F565E2F00E01CF0 /* chair.scn */,
+				BF88C5631F565E2F00E01CF0 /* textures */,
+			);
+			name = chair;
+			path = "../../../../../Materiais de Estudo/PlacingObjects/ARKitExample/Models.scnassets/chair";
+			sourceTree = "<group>";
+		};
+		BF88C5631F565E2F00E01CF0 /* textures */ = {
+			isa = PBXGroup;
+			children = (
+				BF88C5641F565E2F00E01CF0 /* chair_DIFFUSE.png */,
+				BF88C5651F565E2F00E01CF0 /* chair_METALLIC.png */,
+				BF88C5661F565E2F00E01CF0 /* chair_NORMAL.png */,
+				BF88C5671F565E2F00E01CF0 /* chair_ROUGHNESS.png */,
+				BF88C5681F565E2F00E01CF0 /* chair_SHADOW.png */,
+			);
+			path = textures;
+			sourceTree = "<group>";
+		};
+		BF88C56A1F565E3000E01CF0 /* vase */ = {
+			isa = PBXGroup;
+			children = (
+				BF88C56B1F565E3000E01CF0 /* textures */,
+				BF88C5731F565E3000E01CF0 /* vase.scn */,
+			);
+			name = vase;
+			path = "../../../../../Materiais de Estudo/PlacingObjects/ARKitExample/Models.scnassets/vase";
+			sourceTree = "<group>";
+		};
+		BF88C56B1F565E3000E01CF0 /* textures */ = {
+			isa = PBXGroup;
+			children = (
+				BF88C56C1F565E3000E01CF0 /* vase_AO.png */,
+				BF88C56D1F565E3000E01CF0 /* vase_DIFFUSE.png */,
+				BF88C56E1F565E3000E01CF0 /* vase_METALLIC.png */,
+				BF88C56F1F565E3000E01CF0 /* vase_NORMAL.png */,
+				BF88C5701F565E3000E01CF0 /* vase_ROUGHNESS.png */,
+				BF88C5711F565E3000E01CF0 /* vase_SHADOW.png */,
+				BF88C5721F565E3000E01CF0 /* water_DIFFUSE.png */,
+			);
+			path = textures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,7 +340,48 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF88C5391F55D5C600E01CF0 /* LaunchScreen.storyboard in Resources */,
+				BF88C59C1F565E3000E01CF0 /* vase.scn in Resources */,
+				BF88C57B1F565E3000E01CF0 /* lamp_ROUGHNESS.png in Resources */,
+				BF88C58C1F565E3000E01CF0 /* cup_steam_SPRITE.png in Resources */,
 				BF88C5361F55D5C600E01CF0 /* Assets.xcassets in Resources */,
+				BF88C5781F565E3000E01CF0 /* lamp_DIFFUSE.png in Resources */,
+				BF88C5751F565E3000E01CF0 /* environment.jpg in Resources */,
+				BF88C58B1F565E3000E01CF0 /* cup_SHADOW.png in Resources */,
+				BF88C58A1F565E3000E01CF0 /* cup_ROUGHNESS.png in Resources */,
+				BF88C57C1F565E3000E01CF0 /* lamp_SHADOW.png in Resources */,
+				BF88C5951F565E3000E01CF0 /* vase_AO.png in Resources */,
+				BF88C59A1F565E3000E01CF0 /* vase_SHADOW.png in Resources */,
+				BF88C5991F565E3000E01CF0 /* vase_ROUGHNESS.png in Resources */,
+				BF88C57A1F565E3000E01CF0 /* lamp_NORMAL.png in Resources */,
+				BF88C5961F565E3000E01CF0 /* vase_DIFFUSE.png in Resources */,
+				BF88C5801F565E3000E01CF0 /* candle_METALLIC.png in Resources */,
+				BF88C57D1F565E3000E01CF0 /* candle.scn in Resources */,
+				BF88C58D1F565E3000E01CF0 /* crosshair_blue.png in Resources */,
+				BF88C5971F565E3000E01CF0 /* vase_METALLIC.png in Resources */,
+				BF88C5871F565E3000E01CF0 /* cup_DIFFUSE.png in Resources */,
+				BF88C5741F565E3000E01CF0 /* plane_grid.png in Resources */,
+				BF88C58F1F565E3000E01CF0 /* chair_DIFFUSE.png in Resources */,
+				BF88C5771F565E3000E01CF0 /* lamp.scn in Resources */,
+				BF88C5811F565E3000E01CF0 /* candle_NORMAL.png in Resources */,
+				BF88C5891F565E3000E01CF0 /* cup_NORMAL.png in Resources */,
+				BF88C58E1F565E3000E01CF0 /* chair.scn in Resources */,
+				BF88C5941F565E3000E01CF0 /* crosshair_yellow.png in Resources */,
+				BF88C5881F565E3000E01CF0 /* cup_METALLIC.png in Resources */,
+				BF88C57F1F565E3000E01CF0 /* candle_DIFFUSE.png in Resources */,
+				BF88C59B1F565E3000E01CF0 /* water_DIFFUSE.png in Resources */,
+				BF88C5911F565E3000E01CF0 /* chair_NORMAL.png in Resources */,
+				BF88C5901F565E3000E01CF0 /* chair_METALLIC.png in Resources */,
+				BF88C5931F565E3000E01CF0 /* chair_SHADOW.png in Resources */,
+				BF88C5841F565E3000E01CF0 /* flame_PARTICLE.png in Resources */,
+				BF88C5821F565E3000E01CF0 /* candle_ROUGHNESS.png in Resources */,
+				BF88C5831F565E3000E01CF0 /* candle_SHADOW.png in Resources */,
+				BF88C57E1F565E3000E01CF0 /* candle_AO.png in Resources */,
+				BF88C5981F565E3000E01CF0 /* vase_NORMAL.png in Resources */,
+				BF88C5921F565E3000E01CF0 /* chair_ROUGHNESS.png in Resources */,
+				BF88C5791F565E3000E01CF0 /* lamp_METALLIC.png in Resources */,
+				BF88C5851F565E3000E01CF0 /* cup.scn in Resources */,
+				BF88C5761F565E3000E01CF0 /* environment_blur.exr in Resources */,
+				BF88C5861F565E3000E01CF0 /* cup_AO.png in Resources */,
 				BF88C5341F55D5C600E01CF0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,6 +529,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = D2J564QJA4;
 				INFOPLIST_FILE = FirstARSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BEPiD.FirstARSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -285,6 +544,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = D2J564QJA4;
 				INFOPLIST_FILE = FirstARSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BEPiD.FirstARSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
