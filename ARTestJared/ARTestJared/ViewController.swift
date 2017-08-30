@@ -35,7 +35,11 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         // Create a session configuration
         let configuration = ARWorldTrackingSessionConfiguration()
-        
+        configuration.planeDetection = .horizontal
+        configuration.isLightEstimationEnabled = true
+        #if DEBUG
+            sceneView.debugOptions = ARSCNDebugOptions.showFeaturePoints
+        #endif
         // Run the view's session
         sceneView.session.run(configuration)
     }
