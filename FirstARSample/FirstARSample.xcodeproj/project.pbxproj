@@ -63,7 +63,7 @@
 		BF88C5351F55D5C600E01CF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF88C5381F55D5C600E01CF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF88C53A1F55D5C600E01CF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BF88C5401F565E2E00E01CF0 /* plane_grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plane_grid.png; path = "../../../../../Materiais de Estudo/PlacingObjects/ARKitExample/Models.scnassets/plane_grid.png"; sourceTree = "<group>"; };
+		BF88C5401F565E2E00E01CF0 /* plane_grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plane_grid.png; sourceTree = "<group>"; };
 		BF88C5421F565E2E00E01CF0 /* environment.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = environment.jpg; sourceTree = "<group>"; };
 		BF88C5431F565E2E00E01CF0 /* environment_blur.exr */ = {isa = PBXFileReference; lastKnownFileType = file; path = environment_blur.exr; sourceTree = "<group>"; };
 		BF88C5451F565E2F00E01CF0 /* lamp.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = lamp.scn; sourceTree = "<group>"; };
@@ -88,14 +88,14 @@
 		BF88C55D1F565E2F00E01CF0 /* cup_ROUGHNESS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cup_ROUGHNESS.png; sourceTree = "<group>"; };
 		BF88C55E1F565E2F00E01CF0 /* cup_SHADOW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cup_SHADOW.png; sourceTree = "<group>"; };
 		BF88C55F1F565E2F00E01CF0 /* cup_steam_SPRITE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cup_steam_SPRITE.png; sourceTree = "<group>"; };
-		BF88C5601F565E2F00E01CF0 /* crosshair_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = crosshair_blue.png; path = "../../../../../Materiais de Estudo/PlacingObjects/ARKitExample/Models.scnassets/crosshair_blue.png"; sourceTree = "<group>"; };
+		BF88C5601F565E2F00E01CF0 /* crosshair_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crosshair_blue.png; sourceTree = "<group>"; };
 		BF88C5621F565E2F00E01CF0 /* chair.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = chair.scn; sourceTree = "<group>"; };
 		BF88C5641F565E2F00E01CF0 /* chair_DIFFUSE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chair_DIFFUSE.png; sourceTree = "<group>"; };
 		BF88C5651F565E2F00E01CF0 /* chair_METALLIC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chair_METALLIC.png; sourceTree = "<group>"; };
 		BF88C5661F565E2F00E01CF0 /* chair_NORMAL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chair_NORMAL.png; sourceTree = "<group>"; };
 		BF88C5671F565E2F00E01CF0 /* chair_ROUGHNESS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chair_ROUGHNESS.png; sourceTree = "<group>"; };
 		BF88C5681F565E2F00E01CF0 /* chair_SHADOW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chair_SHADOW.png; sourceTree = "<group>"; };
-		BF88C5691F565E2F00E01CF0 /* crosshair_yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = crosshair_yellow.png; path = "../../../../../Materiais de Estudo/PlacingObjects/ARKitExample/Models.scnassets/crosshair_yellow.png"; sourceTree = "<group>"; };
+		BF88C5691F565E2F00E01CF0 /* crosshair_yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crosshair_yellow.png; sourceTree = "<group>"; };
 		BF88C56C1F565E3000E01CF0 /* vase_AO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vase_AO.png; sourceTree = "<group>"; };
 		BF88C56D1F565E3000E01CF0 /* vase_DIFFUSE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vase_DIFFUSE.png; sourceTree = "<group>"; };
 		BF88C56E1F565E3000E01CF0 /* vase_METALLIC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vase_METALLIC.png; sourceTree = "<group>"; };
@@ -139,16 +139,8 @@
 				BF88C52E1F55D5C600E01CF0 /* AppDelegate.swift */,
 				BF88C5301F55D5C600E01CF0 /* ViewController.swift */,
 				BF88C5321F55D5C600E01CF0 /* Main.storyboard */,
-				BF88C5411F565E2E00E01CF0 /* sharedImages */,
-				BF88C56A1F565E3000E01CF0 /* vase */,
+				BFF36A1A1F56610D005A16DD /* Resources */,
 				BF88C5351F55D5C600E01CF0 /* Assets.xcassets */,
-				BF88C54C1F565E2F00E01CF0 /* candle */,
-				BF88C5611F565E2F00E01CF0 /* chair */,
-				BF88C5601F565E2F00E01CF0 /* crosshair_blue.png */,
-				BF88C5691F565E2F00E01CF0 /* crosshair_yellow.png */,
-				BF88C5561F565E2F00E01CF0 /* cup */,
-				BF88C5441F565E2F00E01CF0 /* lamp */,
-				BF88C5401F565E2E00E01CF0 /* plane_grid.png */,
 				BF88C5371F55D5C600E01CF0 /* LaunchScreen.storyboard */,
 				BF88C53A1F55D5C600E01CF0 /* Info.plist */,
 			);
@@ -161,8 +153,7 @@
 				BF88C5421F565E2E00E01CF0 /* environment.jpg */,
 				BF88C5431F565E2E00E01CF0 /* environment_blur.exr */,
 			);
-			name = sharedImages;
-			path = "../../../../../Materiais de Estudo/PlacingObjects/ARKitExample/Models.scnassets/sharedImages";
+			path = sharedImages;
 			sourceTree = "<group>";
 		};
 		BF88C5441F565E2F00E01CF0 /* lamp */ = {
@@ -171,8 +162,7 @@
 				BF88C5451F565E2F00E01CF0 /* lamp.scn */,
 				BF88C5461F565E2F00E01CF0 /* textures */,
 			);
-			name = lamp;
-			path = "../../../../../Materiais de Estudo/PlacingObjects/ARKitExample/Models.scnassets/lamp";
+			path = lamp;
 			sourceTree = "<group>";
 		};
 		BF88C5461F565E2F00E01CF0 /* textures */ = {
@@ -193,8 +183,7 @@
 				BF88C54D1F565E2F00E01CF0 /* candle.scn */,
 				BF88C54E1F565E2F00E01CF0 /* textures */,
 			);
-			name = candle;
-			path = "../../../../../Materiais de Estudo/PlacingObjects/ARKitExample/Models.scnassets/candle";
+			path = candle;
 			sourceTree = "<group>";
 		};
 		BF88C54E1F565E2F00E01CF0 /* textures */ = {
@@ -217,8 +206,7 @@
 				BF88C5571F565E2F00E01CF0 /* cup.scn */,
 				BF88C5581F565E2F00E01CF0 /* textures */,
 			);
-			name = cup;
-			path = "../../../../../Materiais de Estudo/PlacingObjects/ARKitExample/Models.scnassets/cup";
+			path = cup;
 			sourceTree = "<group>";
 		};
 		BF88C5581F565E2F00E01CF0 /* textures */ = {
@@ -241,8 +229,7 @@
 				BF88C5621F565E2F00E01CF0 /* chair.scn */,
 				BF88C5631F565E2F00E01CF0 /* textures */,
 			);
-			name = chair;
-			path = "../../../../../Materiais de Estudo/PlacingObjects/ARKitExample/Models.scnassets/chair";
+			path = chair;
 			sourceTree = "<group>";
 		};
 		BF88C5631F565E2F00E01CF0 /* textures */ = {
@@ -263,8 +250,7 @@
 				BF88C56B1F565E3000E01CF0 /* textures */,
 				BF88C5731F565E3000E01CF0 /* vase.scn */,
 			);
-			name = vase;
-			path = "../../../../../Materiais de Estudo/PlacingObjects/ARKitExample/Models.scnassets/vase";
+			path = vase;
 			sourceTree = "<group>";
 		};
 		BF88C56B1F565E3000E01CF0 /* textures */ = {
@@ -279,6 +265,22 @@
 				BF88C5721F565E3000E01CF0 /* water_DIFFUSE.png */,
 			);
 			path = textures;
+			sourceTree = "<group>";
+		};
+		BFF36A1A1F56610D005A16DD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BF88C5401F565E2E00E01CF0 /* plane_grid.png */,
+				BF88C54C1F565E2F00E01CF0 /* candle */,
+				BF88C5611F565E2F00E01CF0 /* chair */,
+				BF88C5601F565E2F00E01CF0 /* crosshair_blue.png */,
+				BF88C5691F565E2F00E01CF0 /* crosshair_yellow.png */,
+				BF88C5561F565E2F00E01CF0 /* cup */,
+				BF88C5441F565E2F00E01CF0 /* lamp */,
+				BF88C5411F565E2E00E01CF0 /* sharedImages */,
+				BF88C56A1F565E3000E01CF0 /* vase */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
