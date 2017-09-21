@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  FirstARSample
+//  BasicARTutorial
 //
 //  Created by Gabriel Rodrigues on 20/09/17.
 //  Copyright © 2017 Gabriel Rodrigues. All rights reserved.
@@ -19,23 +19,21 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         sceneView.delegate = self
         
-        //Creating SCNScene, responsible for handling 3D Objects
+        createScene()
+    }
+    
+    func createScene(){
         let scene = SCNScene()
-        
         sceneView.scene = scene
         
-        //Creating Sphere Material
-        let sphereMaterial = SCNMaterial()
-        sphereMaterial.diffuse.contents = UIImage(named: "earth")
-        //Creating Sphere Geometry
-        let sphere = SCNSphere(radius: 0.1)
-        sphere.materials = [sphereMaterial]
-        //Creating Sphere Node
-        let sphereNode = SCNNode(geometry: sphere)
-        sphereNode.position = SCNVector3(0.0, 0.0, -0.5)
-        //Adding sphere node to the scene
-        scene.rootNode.addChildNode(sphereNode)
-        scene.rootNode.addChildNode(sphereNode)
+        let world = SCNSphere(radius: 0.2)
+        let worldMaterial = SCNMaterial()
+        worldMaterial.diffuse.contents = UIImage(named: "earth-1")
+        world.materials = [worldMaterial]
+        let worldNode = SCNNode(geometry: world)
+        worldNode.position = SCNVector3(0.0, 0.1, -0.8)
+        
+        scene.rootNode.addChildNode(worldNode)
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -47,7 +45,6 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         // Run the view's session
         sceneView.session.run(configuration)
     }
-    
     
     func session(_ session: ARSession, didFailWithError error: Error) {
         // Present an error message to the user

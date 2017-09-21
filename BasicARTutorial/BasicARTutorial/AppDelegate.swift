@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  FirstARSample
+//  BasicARTutorial
 //
 //  Created by Gabriel Rodrigues on 20/09/17.
 //  Copyright © 2017 Gabriel Rodrigues. All rights reserved.

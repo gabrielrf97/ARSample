@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  FirstARSample
+//  arkit-demo
 //
-//  Created by Gabriel Rodrigues on 20/09/17.
-//  Copyright © 2017 Gabriel Rodrigues. All rights reserved.
+//  Created by ttillage on 7/9/17.
+//  Copyright © 2017 CapTech. All rights reserved.
 //
 
 import UIKit
@@ -15,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        application.isIdleTimerDisabled = true
         return true
     }
 
